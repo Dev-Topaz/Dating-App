@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:dividerPadding="10dp"
+    android:visibility="visible"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/infoBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/please_confirm_your_number"
+        android:textColor="@color/gray_text"
+        android:textSize="18sp" />
+
+<LinearLayout
+    android:id="@+id/layout_exchange_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/header_exchange_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/text_exchange_coins"
+        android:textAppearance="@style/TextAppearance.Medium.Bold"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/info_exchange_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/MooTextAppearanceSpinnerItem"
+        android:textSize="24sp"
+        tools:text="@string/iban_correct" />
+
+    <EditText
+        android:id="@+id/input_iban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/your_iban_number"
+        android:inputType="textPersonName"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/input_iban_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/iban_fullname"
+        android:inputType="textPersonName"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_request_exchange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_request_exchange_coins"
+        android:visibility="gone" />
+
+</LinearLayout>
+</LinearLayout>

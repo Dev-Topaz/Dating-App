@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "574011917032",
+    "project_id": "lakpi-com1",
+    "storage_bucket": "lakpi-com1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574011917032:android:8b4c456319d530489f3f5d",
+        "android_client_info": {
+          "package_name": "com.lak.pi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574011917032-q2eeoe3m4drcgeam1q40ogtidhjh029f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhvqhSXEvvsasjjdfyzIlXuYH5URdXcow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574011917032-q2eeoe3m4drcgeam1q40ogtidhjh029f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

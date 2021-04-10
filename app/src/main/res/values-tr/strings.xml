@@ -1,0 +1,1008 @@
+<resources>
+    <string name="app_name">Lakpi</string>
+    <string name="app_version">1.0</string>
+    <string name="app_year">2020</string>
+    <string name="app_copyright">lakpi.com</string>
+    <string name="app_email">info@lakpi.com</string>
+    <string name="app_site">http://lakpi.com</string>
+
+    <!-- Facebook App Id -->
+
+    <string name="facebook_app_id" translatable="false">45363456345634563456</string>
+
+    <!-- fb + Facebook App Id, example (you facebook app id: 123456): fb123456 -->
+
+    <string name="fb_login_protocol_scheme" translatable="false">fb45363456345634563456</string>
+
+    <!-- AdMob Banner Id -->
+
+    <!-- DEFAULT Ad UNIT ID: ca-app-pub-3940256099942544/6300978111 -->
+
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!-- AdMob App Id -->
+
+    <!-- DEFAULT Admob APP ID: ca-app-pub-3940256099942544~3347511713 -->
+
+    <string name="admob_app_id" translatable="false">ca-app-pub-2097477034776565~4542510933</string>
+
+    <!-- DEFAULT Rewarded Ad ID: ca-app-pub-3940256099942544/5224354917 -->
+
+    <string name="rewarded_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/5224354917</string>
+
+    <string name="action_login">Giriş Yap</string>
+    <string name="action_signup">Kaydol</string>
+    <string name="action_logout">Çıkış Yap</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="action_continue">Devam</string>
+    <string name="action_unblock">Engeli Kaldır</string>
+    <string name="action_block">Engelle</string>
+    <string name="action_about">Hakkında</string>
+    <string name="action_ok">TAMAM</string>
+    <string name="action_yes">Evet</string>
+    <string name="action_no">Hayır</string>
+    <string name="action_copy">Kopyala</string>
+    <string name="action_save">Kaydet</string>
+    <string name="action_send">Gönder</string>
+    <string name="action_open">Aç</string>
+    <string name="action_edit">Düzenle</string>
+    <string name="action_reply">Cevapla</string>
+    <string name="action_refresh">Yenile</string>
+    <string name="action_report">Rapor Et</string>
+    <string name="action_remove">Sil</string>
+    <string name="action_remove_chat">Sohbeti Sil</string>
+    <string name="action_deactivate">Devredışı Bırak</string>
+    <string name="action_create">Oluştur</string>
+    <string name="action_cancel">Vazgeç</string>
+    <string name="action_close">Kapat</string>
+    <string name="action_more">Daha fazla yükle</string>
+    <string name="action_search">Ara</string>
+    <string name="action_retry">Tekrar Dene</string>
+    <string name="action_turn_on">Aç</string>
+    <string name="action_turn_off">Kapat</string>
+    <string name="action_select_birth">Doğum Tarihi</string>
+    <string name="action_camera">Kamera</string>
+    <string name="action_gallery">Galeriden Seç</string>
+    <string name="action_copy_url">Linki Kopyala</string>
+    <string name="action_open_url">Tarayıcıda Aç</string>
+    <string name="settings_allow_messages">Herkesten Mesaj Alın</string>
+    <string name="settings_allow_messages_summary">Takip etmeseniz bile, herhangi bir kullanıcıdan Doğrudan Mesajlar alabileceksiniz.</string>
+    <string name="action_enable">Etkinleştir</string>
+    <string name="action_accept">Kabul Et</string>
+    <string name="action_reject">Reddet</string>
+    <string name="action_pending">Beklemede&#8230;</string>
+    <string name="action_add_to_friends">Arkadaşlara Ekle</string>
+    <string name="action_remove_from_friends">Arkadaşlardan Kaldır</string>
+
+    <string name="action_buy_credits">Kredi Satın Alın</string>
+
+    <string name="action_follow">Takip Et</string>
+    <string name="action_unfollow">Takibi Bırak</string>
+    <string name="action_new">Yeni</string>
+    <string name="action_profile_edit_photo">Profil Fotoğrafı Değiştir</string>
+    <string name="action_profile_edit_cover">Kapak Fotoğrafı Değiştir</string>
+    <string name="action_profile_edit">Profil Bilgilerini Düzenle</string>
+
+    <string name="action_login_with_facebook">Log in with Facebook</string>
+    <string name="action_signup_with_facebook">Sign up with Facebook</string>
+    <string name="action_connect_with_facebook">Connect with Facebook</string>
+    <string name="action_remove_connection">Remove connection</string>
+    <string name="action_regular_signup">Back to the regular registration form</string>
+    <string name="action_forgot_password">Parolanızı mı unuttunuz?</string>
+
+    <string name="label_profile_report_0">Spam</string>
+    <string name="label_profile_report_1">Küfür ve Hakaret</string>
+    <string name="label_profile_report_2">Pornografi</string>
+    <string name="label_profile_report_3">Sahte profil</string>
+    <string name="label_profile_report_4">Korsanlık</string>
+
+    <string name="label_gender_select_title">Cinsiyet seçin</string>
+    <string name="label_age">Yaş</string>
+    <string name="label_sex">Cinsiyet</string>
+    <string name="label_male">Erkek</string>
+    <string name="label_female">Kadın</string>
+    <string name="label_sex_undefined">Cinsiyet Belirlenmedi</string>
+    <string name="label_sex_male">Cinsiyet Erkek</string>
+    <string name="label_sex_female">Cinsiyet Kadın</string>
+
+    <string name="label_profile_information">Profil Bilgileri</string>
+    <string name="label_profile_activity">Profil Etkinliği</string>
+    <string name="label_profile_join">Kayıt Tarihi</string>
+
+    <string name="placeholder_password">Şifre</string>
+    <string name="placeholder_login">Kullanıcı Adı</string>
+    <string name="placeholder_fullname">Ad Soyad</string>
+    <string name="placeholder_location">Konum</string>
+    <string name="placeholder_facebook_page">Facebook page</string>
+    <string name="placeholder_instagram_page">Instagram page</string>
+    <string name="placeholder_bio">Hakkında</string>
+    <string name="placeholder_email">Email Adresiniz</string>
+    <string name="placeholder_subject">Konu</string>
+    <string name="placeholder_support_detail">Ne hakkında bizimle iletişime geçiyorsunuz?</string>
+    <string name="placeholder_current_password">Şimdiki Şifre</string>
+    <string name="placeholder_new_password">Yeni Şifre</string>
+    <string name="placeholder_item_category">Kategori</string>
+    <string name="placeholder_item_title">Başlık</string>
+    <string name="placeholder_item_login">Kullanıcı Adı, Email Adresi Veya Numara</string>
+    <string name="placeholder_item_passw">Şifre</string>
+    <string name="placeholder_item_url">Web site</string>
+    <string name="placeholder_item_description">Açıklama</string>
+    <string name="placeholder_photo">Gönderiniz için bir yorum ekleyin&#8230;</string>
+    <string name="placeholder_gift">Hediye için yorum ekle&#8230;</string>
+    <string name="placeholder_search">Arkadaş bul</string>
+    <string name="placeholder_comment">Bir yorum yazın&#8230;</string>
+    <string name="placeholder_message">Bir mesaj yazın&#8230;</string>
+
+    <string name="msg_loading">Lütfen Bekleyin&#8230;</string>
+    <string name="msg_loading_2">Yükleniyor.Lütfen Bekleyin&#8230;</string>
+    <string name="msg_network_error">Lütfen İnternet bağlantınızı kontrol edin</string>
+    <string name="msg_account_blocked">Bu hesap bir moderatör tarafından engellendi.</string>
+    <string name="msg_copied_to_clipboard">Panoya kopyalandı.</string>
+    <string name="msg_enter_item">Lütfen bir şeyler yazın veya fotoğraf ekleyin.</string>
+    <string name="msg_enter_msg">PLütfen bir şeyler yazın veya fotoğraf ekleyin.</string>
+    <string name="msg_send_msg_error">Kullanıcıya mesaj gönderemezsiniz.</string>
+    <string name="msg_gift_sent">Hediye başarıyla gönderildi.</string>
+    <string name="msg_item_saved">Öğe başarıyla kaydedildi.</string>
+    <string name="msg_item_added">Öğe başarıyla Eklendi.</string>
+    <string name="msg_password_changed">Şifre başarıyla değiştirildi.</string>
+    <string name="msg_settings_saved">Ayarlar başarıyla kaydedildi.</string>
+    <string name="msg_ticket_send_success">Mesajınız Gönderildi! belirtilen e-postaya bir cevap alacaksınız.</string>
+    <string name="msg_password_reset_link_sent">E-postanıza şifrenizi sıfırlama bağlantısı içeren bir mesaj gönderildi.</string>
+    <string name="msg_no_such_user_in_bd">Böyle bir kullanıcı bulunamadı</string>
+    <string name="msg_connect_to_facebook_success">You have successfully linked application with your account on Facebook!</string>
+    <string name="msg_connect_to_facebook_error">Your account on Facebook is already associated with another account.</string>
+    <string name="msg_connect_to_facebook_removed">Connect with your Facebook account removed.</string>
+    <string name="msg_comment_has_been_added">Yorum Eklendi.</string>
+    <string name="msg_chat_has_been_removed">Sohbet kaldırıldı.</string>
+    <string name="msg_profile_removed_from_blacklist">Kullanıcı engellenenler listesinden kaldırıldı.</string>
+    <string name="msg_profile_link_copied">Profil bağlantısı panoya kopyalandı.</string>
+    <string name="msg_item_link_copied">Öğe bağlantısı panoya kopyalandı.</string>
+    <string name="msg_profile_added_to_blacklist">Kullanıcı engellenenler listesine eklendi.</string>
+    <string name="msg_success_purchase">Tebrikler..Satın alma işlemi tamamlandı!</string>
+    <string name="msg_success_ghost_mode">"Hayalet Modu" başarıyla etkinleştirildi.</string>
+    <string name="msg_success_verified_badge">"Doğrulanmış Rozet" başarıyla etkinleştirildi.</string>
+    <string name="msg_success_disable_ads">Reklamlar kapandı</string>
+
+    <string name="label_ghost_mode_enabled">Hayalet Modu Etkin!</string>
+    <string name="label_verified_badge_enabled">Doğrulanmış Rozet Etkin</string>
+    <string name="label_disable_ads_enabled">Reklamlar Kapalı</string>
+
+    <string name="error_signin">Hatalı kullanıcı adı veya şifre</string>
+    <string name="error_internet_connection">İnternet bağlantısı yok</string>
+    <string name="error_data_loading">Veri yüklenirken hata oluştu. Ağ bağlantınızı kontrol edin. </string>
+    <string name="error_field_empty">Gerekli alanlar boş</string>
+    <string name="error_wrong_format">Yanlış biçim</string>
+    <string name="error_small_password">Minimum 6 karekter</string>
+    <string name="error_small_username">Minimum 5 karekter</string>
+    <string name="error_small_fullname">Minimum 2 karekter</string>
+    <string name="error_login_taken">Kullanıcı adı zaten alınmış</string>
+    <string name="error_email_taken">Bu e-postaya sahip kullanıcı zaten kayıtlı </string>
+    <string name="error_password">Geçersiz şifre.</string>
+    <string name="error_email">E-posta adresi geçersiz.</string>
+    <string name="error_credits">Yeterli kredi yok</string>
+    <string name="error_action">Bu kullanıcı bunu yapmanızı yasakladı</string>
+    <string name="error_no_friend">Bu kullanıcı yalnızca arkadaşlarından mesaj alıyor</string>
+
+    <string name="label_gcm_like">Yeni beğenin var</string>
+    <string name="label_gcm_profile_like">Yeni Profil beğenin var.</string>
+    <string name="label_gcm_comment">Yeni bir yorumunuz var.</string>
+    <string name="label_gcm_follower">Yeni bir takipçiniz var.</string>
+    <string name="label_gcm_friend_request">Yeni bir arkadaşlık isteğiniz var.</string>
+    <string name="label_gcm_friend_request_accepted">Arkadaşlık İsteğiniz kabul edildi.</string>
+    <string name="label_gcm_friend">Yeni bir arkadaşınız var.</string>
+    <string name="label_gcm_message">Yeni bir mesajınız var.</string>
+    <string name="label_gcm_gift">Yeni bir hediyeniz var.</string>
+    <string name="label_gcm_comment_reply">Yoruma yeni bir yanıtınız var.</string>
+
+    <string name="label_authorization_via_facebook">Authorization via Facebook.</string>
+    <string name="label_account_connected_to_facebook">Connected with Facebook</string>
+    <string name="label_account_connect_to_facebook">Connect this account with your social network accounts</string>
+    <string name="label_empty_list">Liste boş.</string>
+    <string name="label_nearby">Yakında</string>
+
+    <string name="age_item_from_1">13</string>
+    <string name="age_item_from_2">18</string>
+    <string name="age_item_from_3">25</string>
+    <string name="age_item_from_4">30</string>
+    <string name="age_item_from_5">35</string>
+    <string name="age_item_from_6">40</string>
+    <string name="age_item_from_7">45</string>
+
+    <string name="age_item_to_1">20</string>
+    <string name="age_item_to_2">27</string>
+    <string name="age_item_to_3">38</string>
+    <string name="age_item_to_4">43</string>
+    <string name="age_item_to_5">50</string>
+    <string name="age_item_to_6">70</string>
+    <string name="age_item_to_7">önemli değil</string>
+
+    <string name="label_location">Konum</string>
+    <string name="label_block">Engelle</string>
+    <string name="label_block_msg">Hediye ve mesajlarınızı gönderemeyecek ve bildirimleri göremezsiniz</string>
+    <string name="label_delete">Sil</string>
+    <string name="label_delete_msg">Bu öğeyi silmek istediğinizden emin misiniz?</string>
+    <string name="label_delete_photo_msg">Bu fotoğrafı silmek istediğinizden emin misiniz?</string>
+    <string name="label_delete_comment">Bu yorumu silmek istediğinizden emin misiniz?</string>
+    <string name="label_report_dialog_title">Kötüye kullanımı raporu</string>
+    <string name="label_last_message_image">Resim</string>
+    <string name="label_profile_reported">Profil bildirildi.</string>
+    <string name="label_item_reported">Öğe bildirildi.</string>
+    <string name="label_photo_reported">Fotoğraf bildirildi.</string>
+    <string name="label_select_img">Resim seç</string>
+    <string name="label_delete_img">Resim silinsin mi?</string>
+    <string name="label_account_disabled">Hesap engellendi</string>
+    <string name="label_search_start_screen_msg">Kullanıcı adı, ad, e-posta veya konuma göre bulun.</string>
+    <string name="label_search_results">Arkadaş bul:</string>
+    <string name="label_search_results_error">Sonuç bulunamadı</string>
+    <string name="label_likes_item">öğenizi beğendi.</string>
+    <string name="label_likes_profile">profilinizi beğendi.</string>
+    <string name="label_comment_added">yeni bir yorum ekledi.</string>
+    <string name="label_comment_reply_added">yorumunuzu yanıtladı.</string>
+    <string name="label_follow_you">sizi takip ediyor.</string>
+    <string name="label_friend_request_added">size arkadaşlık isteği gönderdi.</string>
+    <string name="label_gift_added">size bir hediye gönderdi.</string>
+    <string name="label_share_dialog_title">Paylaş</string>
+    <string name="label_public">Herkes</string>
+    <string name="label_friend_request_dialog_title">Arkadaşlık İsteği</string>
+    <string name="label_search_settings_dialog_title">Arama Ayarları</string>
+    <string name="label_activity">Son Giriş</string>
+
+    <string name="label_photos">fotoğraf</string>
+    <string name="label_gifts">hediye</string>
+    <string name="label_followers">takipçi</string>
+    <string name="label_followings">takip</string>
+    <string name="label_friends">arkadaş</string>
+    <string name="label_likes">beğeni</string>
+    <string name="label_online">Online Kişiler</string>
+    <string name="label_offline">Offline</string>
+
+    <string name="label_to">için</string>
+    <string name="label_from">itibaren</string>
+    <string name="label_between">arasında</string>
+
+    <string name="signup_label_1">Kaydol tıklayarak,</string>
+    <string name="signup_label_terms_and_policies">Şartlar ve Politikalar</string>
+
+    <string name="label_credits">Krediniz</string>
+    <string name="label_credits2">Krediniz</string>
+    <string name="label_credits_gift">Kredi</string>
+    <string name="label_credits_desc">Krediler, yükseltmeleri ve diğer işlevleri etkinleştirmek için kullanabileceğiniz sanal bir para birimidir.</string>
+
+    <string name="label_upgrades_ghost_mode">Hayalet Modu</string>
+    <string name="label_upgrades_ghost_mode_desc">Kullanıcı profillerine anonim olarak göz atın, kullanıcılar profillerini her ziyaret ettiğinizde bildirim almazlar </string>
+
+    <string name="label_upgrades_verified_badge">Doğrulanmış Rozet</string>
+    <string name="label_upgrades_verified_badge_desc">Başkalarına bu harika rozetle meşru bir kullanıcı olduğunuzu gösterin</string>
+
+    <string name="label_upgrades_disable_ads">Reklamları Kapat</string>
+    <string name="label_upgrades_disable_ads_desc">Reklamları görmekten bıktınız mı? Gösterilmelerini devre dışı bırakın</string>
+
+    <string name="settings_header_general">Genel</string>
+    <string name="settings_header_others">Diğerleri</string>
+    <string name="settings_header_about">Hakkında</string>
+    <string name="settings_header_notifications">Bildirim</string>
+
+    <string name="settings_notifications_likes">Beğeniler</string>
+    <string name="settings_notifications_comments">Yorumlar</string>
+    <string name="settings_notifications_followers">Takipçiler</string>
+    <string name="settings_notifications_friends">Arkadaşlık İstekleri</string>
+    <string name="settings_notifications_messages">Özel mesajlar</string>
+    <string name="settings_notifications_gifts">Hediyeler</string>
+    <string name="settings_notifications_comment_reply">Yorumu yanıtla</string>
+
+    <string name="settings_version">Version</string>
+    <string name="settings_logout">Çıkış Yap</string>
+    <string name="settings_balance">Kredi Satın Alın</string>
+    <string name="settings_balance_summary">Kredi bakiyeniz ve kredi satın al</string>
+    <string name="settings_copyright_info">Telif hakkı bilgisi</string>
+    <string name="settings_contact_us">Bize Ulaşın</string>
+    <string name="settings_contact_us_summary">Soru ve önerilerinizi bize bildirin</string>
+    <string name="settings_web_site">Web Sitemiz</string>
+    <string name="settings_view_blocked_list">Engellenenler Listesi</string>
+    <string name="settings_deactivate_account">Hesabımı Sil</string>
+    <string name="settings_thanks">Teşekkür Onayı</string>
+    <string name="settings_terms">Kullanım Şartları</string>
+    <string name="settings_change_password">Şifre Değiştir</string>
+    <string name="settings_services">Hizmet</string>
+    <string name="settings_notifications">Push bildirimleri</string>
+    <string name="settings_services_summary">Sosyal ağ hesaplarına bağlanın</string>
+    <string name="settings_account_deactivation">Hesabınızı silmeye devam ederseniz, asla geri dönemezsiniz. Geri dönmek isterseniz - yeni bir hesap oluşturmanız gerekecek.</string>
+
+    <string name="settings_file" translatable="false">account</string>
+    <string name="settings_account_id" translatable="false">account_id</string>
+    <string name="settings_account_username" translatable="false">account_username</string>
+    <string name="settings_account_access_token" translatable="false">access_token</string>
+
+    <string name="page_1">Profilim</string>
+    <string name="page_3">Arkadaşlar</string>
+    <string name="page_4">Mesajlar</string>
+    <string name="page_5">Bildirimler</string>
+    <string name="page_6">Ziyaretçiler</string>
+    <string name="page_7">Profil beğenileri</string>
+    <string name="page_8">Beğendiklerim</string>
+    <string name="page_9">Yükseltmeler</string>
+    <string name="page_10">Yakındakilaer</string>
+    <string name="page_11">Arkadaş bul</string>
+    <string name="page_12">Ayarlar</string>
+
+    <string name="account_relationship_status">ilişki Durumu</string>
+    <string name="account_political_views">Aylık Gelir</string>
+    <string name="account_world_view">Göz Rengi</string>
+    <string name="account_personal_priority">Mezuniyet Derecesi</string>
+    <string name="account_important_in_others">Çalışma Şekli</string>
+    <string name="account_smoking_views">Sigara</string>
+    <string name="account_alcohol_views">Alkol</string>
+    <string name="account_you_looking">Arama Türü?</string>
+    <string name="account_you_like">İlgilendiği Cinsiyet?</string>
+
+    <string name="account_profile_looking">Arama Türü</string>
+    <string name="account_profile_like">Arıyor</string>
+
+    <string name="account_you_looking_dialog">Arama Türü</string>
+    <string name="account_you_like_dialog">İlgilendiği Cinsiyet</string>
+
+    <string name="relationship_status_0">Belirtilmemiş</string>
+    <string name="relationship_status_1">Bekar</string>
+    <string name="relationship_status_2">Evli</string>
+    <string name="relationship_status_3">Nişanlı</string>
+    <string name="relationship_status_4">Boşanmış</string>
+    <string name="relationship_status_5">Karmaşık</string>
+    <string name="relationship_status_6">Aktif Aramada</string>
+    <string name="relationship_status_7">Birini Seviyor</string>
+
+    <string name="political_views_0">Belirtilmemiş</string>
+    <string name="political_views_1">1.000 TL nin altında</string>
+    <string name="political_views_2">1.000 ile 2.000 TL</string>
+    <string name="political_views_3">2.000 ile 5.000 TL</string>
+    <string name="political_views_4">5.000 ile 10.000 TL</string>
+
+    <string name="world_view_0">Belirtilmemiş</string>
+    <string name="world_view_1">Ela</string>
+    <string name="world_view_2">Mavi</string>
+    <string name="world_view_3">Siyah</string>
+    <string name="world_view_4">Yeşil</string>
+    <string name="world_view_5">Kahverengi</string>
+    <string name="world_view_6">Sarı</string>
+    <!--<string name="world_view_7">Confucianism</string>
+    <string name="world_view_8">Secular Humanism</string>
+    <string name="world_view_9">Pastafarianism</string>-->
+
+    <string name="personal_priority_0">Belirtilmemiş</string>
+    <string name="personal_priority_1">ilkokul</string>
+    <string name="personal_priority_2">Ortaokul</string>
+    <string name="personal_priority_3">Ön Lisans [2 yıllık üniversite]</string>
+    <string name="personal_priority_4">Lisans [4 yıllık üniversite]</string>
+    <string name="personal_priority_5">Yüksek Lisans</string>
+    <string name="personal_priority_6">Doktora</string>
+    <!--<string name="personal_priority_7">Beauty and art</string>
+    <string name="personal_priority_8">Fame and influence</string>-->
+
+    <string name="important_in_others_0">Belirtilmemiş</string>
+    <string name="important_in_others_1">Tam Zamanlı</string>
+    <string name="important_in_others_2">Yarı Zamanlı</string>
+    <string name="important_in_others_3">Emekli</string>
+    <string name="important_in_others_4">Çalışmıyor</string>
+    <!--<string name="important_in_others_5">Courage and persistence</string>
+    <string name="important_in_others_6">Humor and love for life</string>-->
+
+    <string name="smoking_views_0">Belirtilmemiş</string>
+    <string name="smoking_views_1">Asla</string>
+    <string name="smoking_views_2">Bazen</string>
+    <string name="smoking_views_3">Sık Sık</string>
+    <!--<string name="smoking_views_4">Neutral</string>
+    <string name="smoking_views_5">Positive</string>-->
+
+    <string name="alcohol_views_0">Belirtilmemiş</string>
+    <string name="alcohol_views_1">Asla</string>
+    <string name="alcohol_views_2">Bazen</string>
+    <string name="alcohol_views_3">Sık Sık</string>
+    <!--<string name="alcohol_views_4">Neutral</string>
+    <string name="alcohol_views_5">Positive</string>-->
+
+    <string name="you_looking_0">Belirtilmemiş</string>
+    <string name="you_looking_1">Arkadaşlık</string>
+    <string name="you_looking_2">Aşk</string>
+    <string name="you_looking_3">Evlilik</string>
+
+    <string name="you_like_0">Belirtilmemiş</string>
+    <string name="you_like_1">Kadınlarla ilgileniyorum</string>
+    <string name="you_like_2">Erkeklerle ilgileniyorum</string>
+
+    <string name="profile_like_1">Kadınlarla ilgileniyor</string>
+    <string name="profile_like_2">Erkeklerle ilgileniyor</string>
+
+
+    <string name="drawer_open">Aç</string>
+    <string name="drawer_close">Kapat</string>
+
+    <string name="title_activity_login">Giriş Yap</string>
+    <string name="title_activity_signup">Kaydol</string>
+    <string name="title_activity_main">Kullanıcı Galerisi</string>
+    <string name="title_activity_recovery">Şifre kurtarma</string>
+    <string name="title_activity_settings">Ayarlar</string>
+    <string name="title_activity_web_view">Web Görünümü</string>
+    <string name="title_activity_change_password">Şifreni Değiştir</string>
+    <string name="title_activity_services">Hizmetler</string>
+    <string name="title_activity_new_item">Yeni öğe</string>
+    <string name="title_activity_new_photo">Yeni fotoğraf</string>
+    <string name="title_activity_galery">Fotoğraflar</string>
+    <string name="title_activity_view_item">Öğe</string>
+    <string name="title_activity_profile">Profilim</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_search">Arama</string>
+    <string name="title_activity_notifications">Bildirimler</string>
+    <string name="title_activity_photo_view">Fotoğraf</string>
+    <string name="title_activity_hashtags">Hashtags</string>
+    <string name="title_activity_followings">Takipler</string>
+    <string name="title_activity_followers">Takipçiler</string>
+    <string name="title_activity_feeds">Arkadaş Galerisi</string>
+    <string name="title_activity_likes">Beğeniler</string>
+    <string name="title_activity_account_settings">Ayarlar</string>
+    <string name="title_activity_report">Rapor Et</string>
+    <string name="title_activity_pro">ProActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_black_list">Engellenenler Listesi</string>
+    <string name="title_activity_dialogs">Mesajlar</string>
+    <string name="title_activity_chat">Sohbet</string>
+    <string name="title_activity_notifications_settings">Push bildirimleri</string>
+    <string name="title_activity_favorites">Favoriler</string>
+    <string name="title_activity_support">Bize Ulaşın</string>
+    <string name="title_activity_location">Konum</string>
+    <string name="title_activity_edit_item">Düzenle</string>
+    <string name="title_activity_deactivate">Hesabımı Sil</string>
+    <string name="title_activity_select_gift">Bir Hediye Seçin</string>
+    <string name="title_activity_send_gift">Hediye Gönder</string>
+    <string name="title_activity_gifts">Hediyeler</string>
+    <string name="title_activity_friends">Arkadaşlar</string>
+    <string name="title_activity_balance">Kredi Satın Al</string>
+    <string name="title_activity_nearby">Yakındakiler</string>
+
+    <!-- for version 1.1 -->
+
+    <string name="title_dialog_nearby">Bir Mesafe Seçin</string>
+
+    <string name="dialog_nearby_0">80 kilometre</string>
+    <string name="dialog_nearby_1">160 kilometre</string>
+    <string name="dialog_nearby_2">400 kilometre</string>
+    <string name="dialog_nearby_3">800 kilometre</string>
+    <string name="dialog_nearby_4">1,600 kilometre</string>
+
+
+    <!-- for version 1.2 -->
+
+    <string name="label_profile_birth">Doğum Tarihi</string>
+    <string name="label_profile_allow_show_birth">Profilde doğum tarihimi göster</string>
+    <string name="action_open_settings"><u>Konum Ayarlarını Aç</u></string>
+    <string name="action_set_location">Evet, burası benim konumum</string>
+    <string name="action_detail">Daha fazla detay</string>
+    <string name="msg_location_error">Konumunuzu alamadık.</string>
+
+    <string name="label_location_prompt">Konumu kullanarak diğer özellikleri etkinleştirmek için konumunuza erişim izin verin.</string>
+
+    <!-- for version 1.3 -->
+
+    <string name="settings_account_lat">lat</string>
+    <string name="settings_account_lng">lng</string>
+
+    <!-- for version 1.4 -->
+
+    <string name="action_buy">Kredİ Satın Al</string>
+    <string name="action_credits_name">Kredi</string>
+    <string name="action_add_photo">Şimdi bir fotoğraf ekleyebilirsiniz!</string>
+
+    <!-- added for version 1.5 -->
+
+    <string name="action_buy_sms">SMS ile Kredi Satın Al</string>
+    <string name="action_buy_iap1_google_pay">100 Kredi 30 TL</string>
+    <string name="action_buy_iap2_google_pay">250 Kredi 60 TRY</string>
+    <string name="action_buy_iap3_google_pay">500 Kredi 100 TRY</string>
+    <string name="action_buy_iap4_google_pay">1000 Kredi 150 TRY</string>
+
+    <string name="settings_account_allow_messages_gcm" translatable="false">allow_messages_gcm</string>
+
+    <!-- added for version 1.9 -->
+
+    <string name="title_activity_view_image">Resim</string>
+    <string name="label_image_for_public">Herkes</string>
+    <string name="label_image_for_friends">Arkadaşlar</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <!-- added for version 2.0 -->
+
+    <string name="title_activity_likers">Bunu Beğenen Kişiler</string>
+    <string name="label_likes_image">fotoğrafını beğendi.</string>
+    <string name="msg_comment_has_been_removed">Yorum kaldırıldı.</string>
+
+    <!-- added for version 2.2 -->
+
+    <string-array name="navDrawerIcons">
+        <item>@drawable/ic_action_profile</item>
+        <item>@drawable/ic_action_gallery</item>
+        <item>@drawable/ic_action_friends</item>
+        <item>@drawable/ic_action_messages</item>
+        <item>@drawable/ic_action_notifications</item>
+        <item>@drawable/ic_action_guests</item>
+        <item>@drawable/ic_action_favorites</item>
+        <item>@drawable/ic_action_liked</item>
+        <item>@drawable/ic_action_upgrade</item>
+        <item>@drawable/ic_action_nearby</item>
+        <item>@drawable/ic_action_stream</item>
+        <item>@drawable/ic_action_feed</item>
+        <item>@drawable/ic_action_search</item>
+        <item>@drawable/ic_action_settings</item>
+    </string-array>
+
+    <!-- added for version 2.3 -->
+
+    <string name="page_15">Arkadaş Galerisi</string>
+
+    <string-array name="navDrawerItems">
+        <item>Profilim</item>
+        <item>Galerim</item>
+        <item>Arkadaşlar</item>
+        <item>Mesajlar</item>
+        <item>Bildirimler</item>
+        <item>Ziyaretçiler</item>
+        <item>Beğeniler</item>
+        <item>Beğendiklerim</item>
+        <item>Yükseltmeler</item>
+        <item>Yakındakiler</item>
+        <item>Kullanıcı Galerisi</item>
+        <item>Arkadaş Galerisi</item>
+        <item>Arkadaş bul</item>
+        <item>Ayarlar</item>
+    </string-array>
+
+    <string name="page_2">Galerim</string>
+
+    <string name="action_video_gallery">Galeriden video seçin</string>
+    <string name="label_select_video">Video seçin</string>
+    <string name="msg_video_too_large">Dosya çok büyük maksimum 25 MB..</string>
+    <string name="label_delete_item">Öğeyi sil?</string>
+    <string name="title_activity_view_gallery_item">Galleri Öğesi</string>
+    <string name="title_activity_video_view">Video</string>
+
+    <string name="title_activity_stream">Arkadaş Galerisi</string>
+    <string name="page_14">Kullanıcı Galerisi</string>
+
+    <string name="label_gallery">galeri</string>
+
+    <string name="title_activity_gallery">Profil Galerisi</string>
+
+    <string name="settings_allow_comments_to_photos">Galeri öğelerime yorum yapma izni ver</string>
+    <string name="msg_comments_disabled">Kullanıcı galeri öğeleri hakkında yorum yapılması istemiyor.</string>
+
+    <string name="msg_enter_photo">Lütfen yayınlamak için bir fotoğraf veya video seçin.</string>
+
+    <!-- added for version 2.5 -->
+
+    <string name="action_grant">Konum izni ver</string>
+    <string name="msg_location_permission_request">Lütfen konumunuzu kullanmak için izin verin.</string>
+    <string name="label_no_storage_permission">Depolama izni verilmiyor</string>
+    <string name="label_no_location_permission">Konum izni verilmiyor</string>
+    <string name="label_grant_storage_permission">izinleri Aç ve Depolama İzni Ver</string>
+    <string name="label_grant_location_permission">izinleri açın ve Konum izni verin</string>
+
+    <!-- added for version 2.6 -->
+
+    <string name="action_message">Mesaj Gönder</string>
+    <string name="action_gift">Hediye Gönder</string>
+
+    <!-- added for version 2.8 -->
+
+    <string name="title_activity_privacy_settings">Gizlilik Ayarları</string>
+    <string name="settings_privacy">Gizlilik Ayarları</string>
+
+    <string name="settings_privacy_info">Profilimi Sadece Arkadaşlarım Görsün</string>
+    <string name="settings_privacy_galley">Galerimi Sadece Arkadaşlarım Görsün</string>
+    <string name="settings_privacy_friends">Arkadaşlarımı Sadece Arkadaşlarım Görsün</string>
+    <string name="settings_privacy_likes">Beğenilerimi Sadece Arkadaşlarım Görsün</string>
+    <string name="settings_privacy_gifts">Hediyelerimi Sadece Arkadaşlarım Görsün</string>
+
+    <!-- added for version 2.9 -->
+
+    <string name="action_remove_all">Hepsini sil</string>
+    <string name="title_dialog_nearby_sex">Cinsiyet Seçin</string>
+    <string name="label_gender_any">Hepsi</string>
+    <string name="action_nearby_sex_settings">Cinsiyet Seç</string>
+
+    <!-- added for version 3.0 -->
+
+    <string name="title_activity_welcome">Hoşgeldin</string>
+    <string name="title_activity_referrals">Referanslar</string>
+    <string name="title_activity_refill">Referans Geçmişi</string>
+
+    <string name="welcome_screen_1_title">Hoşgeldiniz</string>
+    <string name="welcome_screen_2_title">Fotoğraf ve video</string>
+    <string name="welcome_screen_3_title">Kimler Yakında</string>
+    <string name="welcome_screen_4_title">Teşekürler</string>
+
+    <string name="welcome_screen_1_desc">Kayıt başarıyla tamamlandı!</string>
+    <string name="welcome_screen_2_desc">Fotoğraf ve video paylaşın!</string>
+    <string name="welcome_screen_3_desc">Yakındaki kişileri bul</string>
+    <string name="welcome_screen_4_desc">Bizi tercih ettiğiniz için teşekkürler!</string>
+
+    <string name="action_next">Sonraki</string>
+    <string name="action_finish">Bitti</string>
+    <string name="action_skip">Atla</string>
+
+    <string name="label_signup_invite">Sizi davet eden kullanıcı kimliği [isteğe bağlı]</string>
+    <string name="label_user_id">Kullanıcı Kimliği</string>
+
+    <string name="settings_view_referrals_list">Referanslar</string>
+
+    <string name="label_referrals_id">Kullanıcı Kimliği:</string>
+    <string name="label_referrals_hint">Arkadaşlarınızı davet edin ve Kredi kazanın!</string>
+    <string name="label_referrals_hint2">Referanslar, davetinize kaydolan kişilerdir.</string>
+
+    <string name="label_refill_type_google">Google Play Satın Alma</string>
+    <string name="label_refill_amount">Kredi sayısı:</string>
+
+
+    <!-- added for version 3.1 -->
+
+    <string name="label_only_with_photo">Sadece fotoğrafı olanlar</string>
+    <string name="label_only_with_pro_mode">Sadece Pro Modu olanlar</string>
+    <string name="label_additional">Ek</string>
+
+    <string name="label_upgrades_pro_mode">Pro Modu</string>
+    <string name="label_pro_mode_enabled">Pro Modu Etkin</string>
+
+    <string name="msg_success_pro_mode">"Pro Modu" başarıyla etkinleştirildi</string>
+
+    <!-- added for version 3.2 -->
+
+    <string name="msg_pro_mode_alert">Sınırsız mesaj göndermek için Yükseltmeler bölümünde "Pro Modu" etkinleştirmeniz gerekir!</string>
+    <string name="msg_account_deactivated">Bu hesap kullanıcı tarafından silindi.</string>
+
+    <string name="label_upgrades_pro_mode_desc">Diğer kullanıcılara sınırsız özel mesaj gönderebilirsiniz</string>
+
+    <string name="label_just_now">Şimdi</string>
+
+    <!-- added for version 3.3 -->
+
+    <string name="settings_account_free_messages_count">free_messages_count</string>
+    <string name="settings_account_pro_mode">pro_mode</string>
+    <string name="settings_account_verified">account_verified</string>
+    <string name="settings_account_photo_url">account_photo_url</string>
+    <string name="settings_account_cover_url">account_cover_url</string>
+    <string name="settings_account_fullname">account_fullname</string>
+
+    <!-- added for version 3.4 -->
+
+    <string name="label_typing">yazıyor...</string>
+    <string name="label_chat_media">Kullanıcı Galerisi</string>
+    <string name="label_chat_stickers">Çıkartma</string>
+
+    <string name="label_multi_account_msg">Çoklu hesap oluşturamazsınız!</string>
+
+    <string name="channel_name">Lakpi</string>
+
+    <string name="label_free_messages_count">Ücretsiz Mesaj Sayısı</string>
+
+    <!-- added for version 3.5 -->
+
+    <string name="label_height">Boy</string>
+    <string name="label_weight">Ağırlık</string>
+    <string name="label_cm">CM</string>
+    <string name="label_kg">KG</string>
+
+    <string name="label_select_gender">Cinsiyet</string>
+    <string name="label_select_age">Yaş</string>
+
+    <string name="msg_gender_incorrect">lütfen cinsiyetinizi seçin</string>
+    <string name="msg_age_incorrect">Lütfen yaşınızı seçin</string>
+    <string name="msg_age_incorrect_2">Lütfen yaşınızı girin [en az 18 yaş]</string>
+    <string name="msg_age_incorrect_3">Lütfen yaşınızı girin [en fazla 75 yaş]</string>
+
+    <string name="action_nearby_distance_settings">Mesafe Seçin</string>
+
+    <string name="label_age_from_to">Yaş (ile arasında)</string>
+
+    <!-- added for version 3.6 -->
+
+    <string name="settings_notifications_matches">Maçlar</string>
+
+    <string name="title_activity_matches">Maçlar</string>
+    <string name="title_activity_hotgame">Hot or Not</string>
+
+    <string name="label_gcm_new_match_found">Yeni eşleşme bulundu.</string>
+
+    <string name="nav_drawer_open">Aç</string>
+    <string name="nav_drawer_close">Kapat</string>
+
+    <string name="nav_hotgame">Hot or Not</string>
+    <string name="nav_profile">Profilim</string>
+    <string name="nav_gallery">Galerim</string>
+    <string name="nav_friends">Arkadaşlar</string>
+    <string name="nav_matches">Maçlar</string>
+    <string name="nav_messages">Mesajlar</string>
+    <string name="nav_notifications">Bildirimler</string>
+    <string name="nav_guests">Ziyaretçiler</string>
+    <string name="nav_likes">Profil Beğenileri</string>
+    <string name="nav_liked">Beğendiklerim</string>
+    <string name="nav_upgrades">Yükseltmeler</string>
+    <string name="nav_nearby">Yakındakiler</string>
+    <string name="nav_stream">Kullanıcı Galerisi</string>
+    <string name="nav_feed">Arkadaş Galerisi</string>
+    <string name="nav_search">Arkadaş bul</string>
+    <string name="nav_settings">Ayarlar</string>
+
+    <string name="label_hotgame_dialog_title">Hot or Not Ayarları</string>
+
+    <string name="label_hotgame_liked_checkbox">Beğenilenleri göster</string>
+    <string name="label_hotgame_matches_checkbox">Maçları göster</string>
+
+    <string name="settings_account_allow_matches_gcm">allow_matches_gcm</string>
+    <string name="settings_account_allow_likes_gcm">allow_likes_gcm</string>
+
+    <!-- added for version 3.7 -->
+
+    <string name="settings_account_admob">reklam</string>
+    <string name="action_profile_edit_feeling">Duygu ayarla</string>
+    <string name="title_activity_feelings">Duygular</string>
+
+    <!-- added for version 3.8 -->
+
+    <string name="msg_success_rewarded">Tebrikler! Reklamları görüntüleme ödülü bakiyenize eklendi!</string>
+
+    <string name="action_view_rewarded_video_ad">Reklam göster Kredi kazanın</string>
+
+    <!-- added for version 3.9 -->
+
+    <string name="settings_account_balance">account_balance</string>
+
+    <!-- added for version 4.0 -->
+
+    <string name="action_see_all">Tümünü Gör</string>
+
+    <!-- DO NOT TRANSLATE START -->
+    <string name="default_notification_channel_id" translatable="false">my_channel_01</string>
+    <!-- DO NOT TRANSLATE END-->
+
+    <!-- added for version 4.1 -->
+
+    <string name="title_activity_upgrades">Yükseltmeler</string>
+    <string name="title_activity_guests">Ziyaretçiler</string>
+    <string name="title_activity_media">Medya Akışı</string>
+    <string name="title_activity_liked">Beğendiklerim</string>
+
+    <string name="nav_people_nearby">Yakındakiler</string>
+    <string name="nav_media_stream">Kullanıcı Galerisi</string>
+    <string name="nav_media_feed">Arkadaş Galerisi</string>
+    <string name="nav_menu">Ayarlar</string>
+
+    <string name="label_photo_privacy">Kullanıcı Galerisinde Göster</string>
+
+    <!-- added for version 4.2 -->
+
+    <string name="label_gcm_media_approve">Galeri öğeniz onaylandı.</string>
+    <string name="label_gcm_media_reject">Galeri öğeniz reddedildi.</string>
+
+    <string name="label_media_approved">%s galeri öğeniz onaylandı.</string>
+    <string name="label_media_rejected">%s galeri öğeniz reddedildi.</string>
+
+    <string name="label_gcm_profile_photo_approve">Profil fotoğrafınız onaylandı.</string>
+    <string name="label_gcm_profile_photo_reject">Profil fotoğrafınız reddedildi.</string>
+
+    <string name="label_profile_photo_approved">%s profil fotoğrafınız onaylandı.</string>
+    <string name="label_profile_photo_rejected">%s profil fotoğrafınız reddedildi.</string>
+
+    <string name="settings_view_circle_items">Listelerde yuvarlak kişi fotoğrafları</string>
+
+    <string name="msg_gallery_moderation_notice">Dikkat! Kullanıcılar gönderinizi yalnızca denetlendikten sonra görülür!</string>
+    <string name="msg_gallery_item_added">Öğe denetime gönderildi. Denetleme sonunda bilgilendirileceksiniz.</string>
+
+    <string name="msg_gallery_item_status_rejected">Moderatör tarafından reddedildi ve kullanıcılar tarafından görüntülenemiyor.</string>
+    <string name="msg_gallery_item_status_approved">Moderatör tarafından onaylanmıştır ve kullanıcılar tarafından görüntülenebilir.</string>
+    <string name="msg_gallery_item_status_wait">Denetleme bekleniyor. Denetimden sonra kullanıcılar tarafından görülebilir. Denetimin sona ermesiyle ilgili bir bildirim alacaksınız.</string>
+
+    <!-- DO NOT TRANSLATE BLOCK START -->
+    <string name="settings_account_circle_items">account_circle_items</string>
+    <!-- DO NOT TRANSLATE BLOCK END-->
+
+    <!-- added for version 4.3 -->
+
+    <string name="action_back">Geri</string>
+    <string name="action_choose_photo">Fotoğraf seç</string>
+    <string name="action_choose_age">Yaş</string>
+    <string name="action_choose_gender">Cinsiyet</string>
+    <string name="action_grant_access">Erişim izni ver</string>
+    <string name="action_grant_access_success">Erişim izni Verildi</string>
+
+    <string name="register_screen_2_msg">Lütfen profiliniz için bir fotoğraf seçin.</string>
+    <string name="register_screen_2_title">Fotoğrafınız</string>
+    <string name="register_screen_2_subtitle">Bir fotoğraf seçerken yaratıcı olun!</string>
+
+    <string name="register_screen_3_msg">Lütfen yaşınızı belirtin.</string>
+    <string name="register_screen_3_title">Yaşınızı belirtin</string>
+    <string name="register_screen_3_subtitle">Lütfen yaşınızı belirtin.</string>
+
+    <string name="register_screen_4_msg">Cinsiyeti belirtin.</string>
+    <string name="register_screen_4_title">Cinsiyet belirtin</string>
+    <string name="register_screen_4_subtitle">Cinsiyeti belirtin</string>
+
+    <string name="register_screen_5_title">Hotgame ve Yakındakiler</string>
+    <string name="register_screen_5_subtitle">Bazı özelliklere erişmek için uygulamanın konumunuzu kullanma iznine ihtiyacı vardır.</string>
+
+    <string name="label_secret">Gizli</string>
+    <string name="label_sex_secret">Cinsiyet Gizli</string>
+
+    <string name="label_register_terms">Devam tıklayarak,</string>
+
+    <string name="msg_action_logout">Oturumu kapatmak istediğinizden emim misiniz?</string>
+
+    <string name="label_profile_photo_approved_new">%s profil fotoğrafınızı onaylandı. Uygulamanın tüm özelliklerini kullanabilirsiniz!</string>
+    <string name="label_profile_photo_rejected_new">%s profil fotoğrafınız reddedildi. Moderatör denetimi tekrarlamak için profil fotoğrafı yükleyin / değiştirin.</string>
+
+    <string name="label_only_moderated">Moderatör tarafından doğrulandı</string>
+
+    <string name="dlg_moderation_title">Moderatör</string>
+    <string name="msg_account_not_moderated">Yalnızca başarıyla yönetilen hesaplar için kullanılabilir! Profiliniz henüz denetlenmedi!</string>
+
+    <!-- For version 4.4 -->
+
+    <string name="label_distance">Mesafe (%d)</string>
+    <string name="label_nearby_settings_dialog_title">Yakındaki Ayarları</string>
+    <string name="label_age_filters">Yaş</string>
+
+    <!-- DO NOT TRANSLATE BLOCK START -->
+    <string name="settings_nearby_gender" translatable="false">account_nearby_gender</string>
+    <string name="settings_nearby_sex_orientation" translatable="false">account_nearby_sex_orientation</string>
+    <string name="settings_nearby_distance" translatable="false">account_nearby_distance</string>
+
+    <string name="settings_search_gender" translatable="false">account_search_gender</string>
+    <string name="settings_search_sex_orientation" translatable="false">account_search_sex_orientation</string>
+    <string name="settings_search_online" translatable="false">account_search_online</string>
+    <string name="settings_search_photo" translatable="false">account_search_photo</string>
+    <string name="settings_search_pro" translatable="false">account_search_pro</string>
+    <string name="settings_search_moderation" translatable="false">account_search_moderation</string>
+    <string name="settings_search_age_from" translatable="false">account_search_age_from</string>
+    <string name="settings_search_age_to" translatable="false">account_search_age_to</string>
+    <!-- DO NOT TRANSLATE BLOCK END-->
+
+    <string name="rsb_min_label">18</string>
+    <string name="rsb_max_label">100</string>
+
+    <!-- For version 4.5 -->
+
+    <string name="label_profile_photo_moderation_active">Profil fotoğrafı denetlendikten sonra tüm kullanıcılar tarafından görülecek. Artık kullanıcılar önceki fotoğrafınızı görüyor, moderatörler veya varsayılan fotoğraf tarafından onaylanıyor.</string>
+    <string name="label_profile_cover_moderation_active">Profil kapağı denetlendikten sonra tüm kullanıcılar tarafından görülecek. Artık kullanıcılar önceki kapağınızın moderatörler veya varsayılan kapak tarafından onaylandığını görüyor.</string>
+
+    <string name="label_profile_cover_approved_new">%s profil kapağınız onaylandı.</string>
+    <string name="label_profile_cover_rejected_new">%s profilinizin kapağını reddedildi. Denetlemeyi tekrarlamak için profil kapağını yükle / değiştir.</string>
+
+    <string name="label_gcm_profile_cover_approve">Profilinizin kapağı onaylandı.</string>
+    <string name="label_gcm_profile_cover_reject">Profilinizin kapağı reddedildi.</string>
+
+    <!-- For version 4.7 -->
+
+    <string name="settings_account_allow_gifts_gcm" translatable="false">allow_gifts_gcm</string>
+    <string name="settings_account_allow_friends_requests_gcm" translatable="false">allow_friends_requests_gcm</string>
+    <string name="settings_account_allow_comments_gcm" translatable="false">allow_comments_gcm</string>
+
+    <string name="action_cancel_friends_request">İsteği iptal et</string>
+
+    <!--  For version 4.8  -->
+
+    <string name="title_activity_balance_history">Bakiye Geçmişi</string>
+    <string name="settings_view_balance_history">Bakiye Geçmişi</string>
+    <string name="settings_view_balance">Bakiye</string>
+
+    <string name="label_payments_credits_stripe">Stripe ile kredi satın al</string>
+    <string name="label_payments_credits_android">Android uygulama içi ile kredi satın al</string>
+    <string name="label_payments_credits_ios">iOS uygulama içi ile kredi satın al</string>
+    <string name="label_payments_credits_admob">Reklam görüntüleme kredileri</string>
+    <string name="label_payments_send_gift">Hediye Gönderdiniz</string>
+    <string name="label_payments_verified_badge">Doğrulanmış Rozet Özelliğini Etkinleştirdiniz</string>
+    <string name="label_payments_ghost_mode">Hayalet Modunu Etkinleştirdiniz</string>
+    <string name="label_payments_off_admob">Uygulamadaki Admob Reklamları Kapattınız</string>
+    <string name="label_payments_pro_mode">Pro Modunu Etkinleştirdiniz</string>
+    <string name="label_payments_message_package">Mesaj Paketi Etkinleştirdiniz</string>
+    <string name="label_payments_spotlight_feature">Spotlight özelliğini kullandınız</string>
+    <string name="label_payments_registration_bonus">Kayıt Bonusu</string>
+    <string name="label_payments_referral_bonus">Referans Bonusu</string>
+
+    <string name="label_upgrades_message_package">Mesaj Paketi [100 mesaj]</string>
+    <string name="label_upgrades_message_package_desc">Kullanıcılara özel mesajlar göndermek için bir mesaj paketi satın alın. Sınırsız mesaj göndermek için Pro Modunu da etkinleştirebilirsiniz..</string>
+
+    <string name="action_get_balance">kredi satın Al</string>
+    <string name="dlg_choice_gift_title">Hediyeler</string>
+    <string name="dlg_choice_feeling_title">Duygular</string>
+    <string name="account_balance_label">Bakiyeniz %d kredidir</string>
+
+    <string name="price_of">%d Kredi</string>
+
+    <string name="title_activity_spotlight">Spotlight</string>
+    <string name="label_spotlight">Spotlight</string>
+    <string name="nav_spotlight">Spotlight</string>
+
+    <string name="action_add_me">Beni buraya ekle</string>
+
+    <string name="free_messages_of">%d ücretsiz mesajınız var</string>
+    <string name="msg_success_buy_message_package">Mesajların sayısı arttırıldı!</string>
+    <string name="msg_spotlight_dlg_content">Profiliniz listenin en üstüne eklenecek ve başka bir kullanıcı profilini bu listeye ekleyene kadar ilk konumda kalacaktır. Bu işlevi kullanmak için,% d kredi dahili bakiyenizden düşülecektir. Katılıyor musun?</string>
+    <string name="msg_spotlight_dlg_content_added">Profiliniz zaten listenin başında!</string>
+
+    <string name="msg_play_video_error">Video oynatılamıyor. Dosya bulunamadı.</string>
+    <string name="google_places_api_key">AIzaSyBccv5doirxPTE7ZIvr-vK-m5MWcZmkW5Q</string>
+
+    <!--  For version 5.1  -->
+
+    <string name="label_item_delete_msg">Bu öğeyi silmek istediğinizden emin misiniz?</string>
+    <string name="action_image_from_gallery"> Galeriden resim seçin</string>
+    <string name="action_image_from_camera">Fotoğraf çek</string>
+    <string name="action_choice_sticker">Çıkartmalar</string>
+
+    <string name = "error_client_id"> CLIENT_ID - Her iki yapılandırma dosyasında da yanlış veya aynı değil! Yapılandırma dosyalarının doğru yapılandırmasını yapın! </string>
+    <string name = "error_client_secret"> CLIENT_SECRET - Her iki yapılandırma dosyasında da yanlış veya aynı değil! Yapılandırma dosyalarının doğru yapılandırmasını yapın! </string>
+    <string name="settings_account_agora_api_key" translatable="false">settings_account_agora_api_key</string>
+    <string name="title_activity_otp_verification">Numara Doğrulama</string>
+    <string name="settings_view_otp_verification">Numaranı Doğrula</string>
+    <string name="settings_view_otp_verification_summary">Cep telefonu numarası doğrulama</string>
+    <string name="otp_phone_number_placeholder">Cep telefonu numarasını girin ...</string>
+    <string name="otp_sms_code_placeholder">mesajdaki 6 basamaklı kodu girin</string>
+    <string name="otp_action_send_code">Kodu gönder</string>
+    <string name="otp_action_resend_code">Kodu tekrar gönder</string>
+    <string name="otp_action_check_code">Kodu kontrol et</string>
+    <string name="otp_verification_promo">Bu özellik yalnızca cep telefonu numarasına bağlanmış ve doğrulanmış kullanıcılar için mevcuttur. Telefon numaranızı hesabınıza bağlayın ve tüm işlevleri kısıtlama olmaksızın kullanmak için SMS ile onaylayın!</string>
+    <string name="otp_verification_success_msg">Yaşasın. Doğrulama başarıyla tamamlandı!</string>
+    <string name="otp_verification_error_msg">Hata. Doğrulama tamamlanmadı</string>
+    <string name="otp_verification_code_error_msg">mesajdaki kodu yanlış giriyorsunuz</string>
+    <string name="otp_verification_code_error_msg_2">Geçersiz kod.</string>
+    <string name="nav_gifts">Kredilerim</string>
+    <string name="api_key_youtube" translatable="false">AIzaSyBvhSf4Wdowfrsbz3eXprWuy_SPRW1kq_g</string>
+    <string name="your_iban_number">IBAN Numaranızı Yazınız</string>
+    <string name="text_exchange_coins">Şuanda Krediniz Yok</string>
+    <string name="btn_request_exchange_coins">Kredilerimi Bozdur</string>
+    <string name="action_account">Hesabın yok mu?</string>
+    <string name="action_contact">Bize Çevrimiçi Ulaşın</string>
+    <string name="calling">Çalıyor...</string>
+    <string name="video_call_pref">pref_video_call</string>
+    <string name="action_video_youtube">Youtube videosu ekle</string>
+    <string name="action_button_youtube">Ekle</string>
+    <string name="action_link_youtube">Lütfen youtube url girin</string>
+    <string name="action_name_youtube">Youtube Url</string>
+    <string name="only_friends">Sadece Arkadaşlar</string>
+    <string name="anyone">Hiçkimse</string>
+    <string name="policy_video">Seni kimler görüntülü arayabilir</string>
+    <string name="title_activity_unlock_view">Gelen Çağrı</string>
+    <string name="title_activity_video_chat">Görüntülü arama</string>
+    <string name="agora_app_id">0f2a872472354c56b0337851a968fa5b</string>
+    <string name="agora_access_token">agora_access_token</string>
+    <string name="settings_account_otp_phone_number" translatable="false">otp_phone_number</string>
+    <string name="settings_account_otp_verification" translatable="false">otp_verification</string>
+    <string name="otp_sms_code_info">mesajdaki 6 basamaklı kodu girin</string>
+    <string name="otp_phone_number_info">10 Haneli Numaranızı Girin, örneğin: 5XXXXXXXXX</string>
+    <string name="otp_verification_many_requests_error_msg">Olağandışı etkinlik nedeniyle bu cihazdan gelen tüm istekleri engelledik. Daha sonra tekrar deneyin.</string>
+    <string name="otp_verification_phone_number_error_msg_2">Geçersiz telefon numarası biçimi.</string>
+    <string name="otp_verification_phone_number_taken_error_msg">Bu telefon numarası zaten başka bir hesaba bağlı.</string>
+    <string name="otp_verification_phone_number_error_msg">Geçersiz telefon numarası biçimi.</string>
+    <string name="otp_verification_code_sent_msg">Cep telefonunuza bir kod içeren SMS gönderildi</string>
+    <string name="label_sex_orientation">Sexual Orientation</string>
+    <string name="scartched_off">#### Kalan Mesajınız</string>
+    <string name="register">DEVAM</string>
+    <string name="whatsuptext">"Merhaba bir konu için sizinle ilteişim kurmak istiyorum."</string>
+    <string name="verifiedbadgestatus">Kalan #### Gün</string>
+    <string name="videocalling">Gelen Görüntülü Arama</string>
+    <string name="decline">Reddet</string>
+    <string name="accept">Kabul Et</string>
+    <string name="label_yrs">Yaşında</string>
+    <string name="yas">Yaş</string>
+    <string name="credit_with_tries">EFT ile Kredi Satın Al</string>
+    <string name="tv_note">NOT: Ödeme açıklama kısmına kullanıcı adınızı veya email adresinizi yazmanız yeterlidir.</string>
+    <string name="tv_credit_one">500 kredi 75 TL</string>
+    <string name="tv_credit_two">1000 kredi 125 TL</string>
+    <string name="tv_credit_three">2500 kredi 225 TL</string>
+    <string name="tv_bank">Banka Adı: Finansbank</string>
+    <string name="tv_iban">TR180011100000000094762976</string>
+    <string name="tv_name">Ad Soyad: Hasan Sincar</string>
+    <string name="please_confirm_your_number">Lütfen önce numaranızı doğrulayın</string>
+    <string name="iban_correct">Lütfen doğru IBAN numaranızı girin..</string>
+    <string name="iban_fullname">IBAN ile ilişkili Ad Soyad girin</string>
+    <string name="credit_price">Kredi</string>
+</resources>
+

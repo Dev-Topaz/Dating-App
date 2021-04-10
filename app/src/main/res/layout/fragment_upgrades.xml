@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/main_layout"
+    tools:context=".UpgradesFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#f3f3f3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container_body" >
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nested_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:scrollbars="none"
+            android:scrollingCache="true" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="20dp">
+
+                <RelativeLayout
+                    android:background="@drawable/upgrade_bg"
+                    android:layout_width="match_parent"
+                    android:paddingStart="8dp"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:id="@+id/wallet"
+                        android:layout_width="30dp"
+                        android:background="@drawable/wallet_bg"
+                        android:layout_centerVertical="true"
+                        android:layout_height="30dp">
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:tint="@color/white"
+                            android:layout_centerInParent="true"
+                            app:srcCompat="@drawable/ic_wallet_filled_money_tool"
+                        />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_credits"
+                        android:id="@+id/labelCredits"
+                        android:textSize="16dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_toRightOf="@+id/wallet"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/action_buy_credits"
+                        android:id="@+id/getCreditsBtn"
+                        android:textColor="@color/white"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/getcreditsbtn"
+                        android:textStyle="bold"
+                        android:textAllCaps="false" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:orientation="horizontal"
+                    android:background="@drawable/upgrade_bg"
+                    android:layout_width="match_parent"
+                    android:paddingStart="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <RelativeLayout
+                        android:id="@+id/wallet1"
+                        android:layout_width="65dp"
+                        android:background="@drawable/wallet_bg"
+                        android:layout_centerVertical="true"
+                        android:layout_height="65dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/ghostModeImage"
+                            android:tint="@color/white"
+                            android:layout_centerInParent="true"
+                            app:srcCompat="@drawable/ic_halloween_ghost" />
+
+                    </RelativeLayout>
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_toRightOf="@+id/wallet1"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/labelGhostMode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/label_upgrades_ghost_mode"
+                            android:textAlignment="center"
+                            android:textSize="17dp"
+                            android:textColor="@color/colorPrimary"
+                            android:layout_marginTop="8dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/labelGhostModeDesc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="16dp"
+                            android:font="@font/roboto_bold"
+                            android:text="@string/label_upgrades_ghost_mode_desc"
+                            android:textAlignment="center"
+                            android:textSize="12dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/label_ghost_mode_enabled"
+                            android:id="@+id/labelGhostModeStatus"
+                            android:textSize="14dp"
+                            android:visibility="gone"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:textColor="@color/green_text" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/label_ghost_mode_enabled"
+                            android:id="@+id/labelGhostModeRemaining"
+                            android:textSize="14dp"
+                            android:layout_marginEnd="4dp"
+                            android:visibility="gone"
+                            android:layout_marginTop="8dp"
+                            android:layout_gravity="right"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="@color/green_text" />
+
+                        <Button
+                            android:id="@+id/ghostModeBtn"
+                            android:layout_width="100dp"
+                            android:layout_height="32dp"
+                            android:layout_gravity="right"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/button_primarys"
+                            android:text="@string/action_enable"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/upgrade_bg"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="8dp"
+                    android:layout_marginTop="20dp" >
+
+                    <RelativeLayout
+                        android:id="@+id/wallet2"
+                        android:layout_width="65dp"
+                        android:background="@drawable/wallet_bg"
+                        android:layout_centerVertical="true"
+                        android:layout_height="65dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/verifiedBadgeImage"
+                            android:tint="@color/white"
+                            android:layout_centerInParent="true"
+                            app:srcCompat="@drawable/ic_guarantee" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/wallet2"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/label_upgrades_verified_badge"
+                            android:textAlignment="center"
+                            android:id="@+id/labelVerifiedBadge"
+                            android:textSize="17dp"
+                            android:layout_marginTop="8dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="@string/label_upgrades_verified_badge_desc"
+                            android:id="@+id/labelVerifiedBadgeDesc"
+                            android:textSize="12dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginEnd="16dp"
+                            android:font="@font/roboto_bold"
+                            android:layout_marginTop="8dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/label_verified_badge_enabled"
+                            android:id="@+id/labelVerifiedBadgeStatus"
+                            android:textSize="14dp"
+                            android:visibility="gone"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:textColor="@color/green_text" />
+
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:text="@string/action_enable"
+                            android:id="@+id/verifiedBadgeBtn"
+                            android:textColor="@color/white"
+                            android:background="@drawable/button_primarys"
+                            android:textStyle="bold"
+                            android:layout_marginTop="8dp"
+                            android:layout_gravity="right" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/upgrade_bg"
+                    android:paddingStart="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp" >
+
+                    <RelativeLayout
+                        android:id="@+id/wallet3"
+                        android:layout_width="65dp"
+                        android:background="@drawable/wallet_bg"
+                        android:layout_centerVertical="true"
+                        android:layout_height="65dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/proModeImage"
+                            android:tint="@color/white"
+                            android:layout_centerInParent="true"
+                            app:srcCompat="@drawable/ic_diamond" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_toRightOf="@+id/wallet3"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/labelProMode"
+                            android:layout_width="match_parent"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:layout_marginTop="8dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/label_upgrades_pro_mode"
+                            android:textSize="17dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/label_upgrades_pro_mode_desc"
+                            android:id="@+id/labelProModeDesc"
+                            android:textSize="12dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginEnd="16dp"
+                            android:font="@font/roboto_bold"
+                            android:textAlignment="center"
+                            android:layout_marginTop="8dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/label_pro_mode_enabled"
+                            android:id="@+id/labelProModeStatus"
+                            android:textSize="14dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:visibility="gone"
+                            android:layout_marginTop="8dp"
+                            android:textColor="@color/green_text" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/label_ghost_mode_enabled"
+                            android:id="@+id/labelAddsRemaining"
+                            android:textSize="14dp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_marginBottom="5dp"
+                            android:visibility="gone"
+                            android:layout_marginTop="8dp"
+                            android:layout_gravity="right"
+                            android:textColor="@color/green_text" />
+
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:text="@string/action_enable"
+                            android:id="@+id/proModeBtn"
+                            android:textColor="@color/white"
+                            android:background="@drawable/button_primarys"
+                            android:textStyle="bold"
+                            android:layout_marginTop="8dp"
+                            android:layout_gravity="right" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/upgrade_bg"
+                    android:paddingStart="8dp"
+                    android:layout_marginTop="20dp" >
+
+                    <RelativeLayout
+                        android:id="@+id/wallet4"
+                        android:layout_width="65dp"
+                        android:background="@drawable/wallet_bg"
+                        android:layout_centerVertical="true"
+                        android:layout_height="65dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/disableAdsImage"
+                            android:tint="@color/white"
+                            android:layout_centerInParent="true"
+                            app:srcCompat="@drawable/ic_propaganda" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_toRightOf="@+id/wallet4"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/label_upgrades_disable_ads"
+                            android:textColor="@color/colorPrimary"
+                            android:textAlignment="center"
+                            android:layout_marginTop="8dp"
+                            android:id="@+id/labelDisableAds"
+                            android:textSize="17dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/label_upgrades_disable_ads_desc"
+                            android:id="@+id/labelDisableAdsDesc"
+                            android:textSize="12dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginEnd="16dp"
+                            android:textAlignment="center"
+                            android:font="@font/roboto_bold"
+                            android:layout_marginTop="8dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/label_disable_ads_enabled"
+                            android:id="@+id/labelDisableAdsStatus"
+                            android:textSize="14dp"
+                            android:visibility="gone"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:textColor="@color/green_text"
+                            android:layout_marginBottom="8dp" />
+
+
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:text="@string/action_enable"
+                            android:id="@+id/disableAdsBtn"
+                            android:textColor="@color/white"
+                            android:background="@drawable/button_primarys"
+                            android:textStyle="bold"
+                            android:layout_marginTop="8dp"
+                            android:layout_gravity="right"
+                            />
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+>
+
+    <RelativeLayout
+        android:id="@+id/messagePackageContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/upgrade_bg"
+        android:orientation="horizontal"
+        android:paddingStart="8dp"
+        android:layout_marginBottom="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/wallet5"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/wallet_bg">
+
+            <ImageView
+                android:id="@+id/messagePackageImage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:tint="@color/white"
+                app:srcCompat="@drawable/chat1" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/wallet5"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/labelMessagePackage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/label_upgrades_message_package"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/labelMessagePackageDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:font="@font/roboto_bold"
+                android:text="@string/label_upgrades_message_package_desc"
+                android:textAlignment="center"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/labelMessagePackageStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/label_disable_ads_enabled"
+                android:textColor="@color/gray_text"
+                android:textSize="14dp"
+                android:layout_marginStart="8dp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/messagePackageBtn"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_primarys"
+                android:text="@string/action_buy"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/showId"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/wallet_bg"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="196 Ucretsiz mesaj"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

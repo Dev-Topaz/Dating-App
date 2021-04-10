@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="-20dp"
+    android:background="@drawable/signup_bg" />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:fillViewport="true"
+    android:paddingLeft="20dp"
+    android:paddingTop="60dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            app:cardCornerRadius="20dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/cv_1"
+            app:cardElevation="8dp"
+            >
+
+        <LinearLayout
+            android:id="@+id/llMainview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="5dp">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/username_edit"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/border_bg"
+                android:drawableLeft="@drawable/one"
+                android:drawablePadding="10dp"
+                android:hint="@string/placeholder_login"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:drawableTint="@color/colorPrimary2"
+                android:textSize="18dp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/fullname_edit"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border_bg"
+                android:drawableLeft="@drawable/sec"
+                android:drawablePadding="10dp"
+                android:hint="@string/placeholder_fullname"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:drawableTint="@color/colorPrimary2"
+                android:textSize="18dp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/password_edit"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border_bg"
+                android:drawableLeft="@drawable/thrd"
+                android:drawablePadding="10dp"
+                android:hint="@string/placeholder_password"
+                android:inputType="textPassword"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:drawableTint="@color/colorPrimary2"
+                android:textSize="18dp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/email_edit"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border_bg"
+                android:drawableLeft="@drawable/four"
+                android:drawablePadding="10dp"
+                android:hint="@string/placeholder_email"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:drawableTint="@color/colorPrimary2"
+                android:textSize="18dp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/referrer_edit"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border_bg"
+                android:drawableLeft="@drawable/five"
+                android:drawablePadding="10dp"
+                android:hint="@string/label_user_id"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:drawableTint="@color/colorPrimary2"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/button_terms"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/txt1" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/button_continue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/registerbutton"
+                android:fontFamily="sans-serif-medium"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:paddingLeft="30dp"
+                android:paddingTop="7dp"
+                android:paddingRight="30dp"
+                android:paddingBottom="7dp"
+                android:text="@string/register"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+
+
+        </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <ImageView
+            android:id="@+id/gtl"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/bt_txt1" />
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
